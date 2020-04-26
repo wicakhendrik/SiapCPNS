@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.nonamedev.siapcpns.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_tahapan"
+        android:name="com.nonamedev.siapcpns.ui.tahapan.TahapanFragment"
+        android:label="Tahapan"
+        tools:layout="@layout/fragment_tahapan" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_pengumuman"
+        android:name="com.nonamedev.siapcpns.ui.pengumuman.PengumumanFragment"
+        android:label="Pengumuman"
+        tools:layout="@layout/fragment_pengumuman" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_alur"
+        android:name="com.nonamedev.siapcpns.ui.alur.AlurFragment"
+        android:label="Alur Pendaftaran"
+        tools:layout="@layout/fragment_alur" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_ambangbatas"
+        android:name="com.nonamedev.siapcpns.ui.ambangbatas.AmbangbatasFragment"
+        android:label="Ambang Batas"
+        tools:layout="@layout/fragment_ambangbatas" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_faq"
+        android:name="com.nonamedev.siapcpns.ui.faq.FaqFragment"
+        android:label="FAQ"
+        tools:layout="@layout/fragment_faq" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_tips"
+        android:name="com.nonamedev.siapcpns.ui.tips.TipsFragment"
+        android:label="Tips dan Trick"
+        tools:layout="@layout/fragment_faq" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_tiu"
+        android:name="com.nonamedev.siapcpns.ui.tiu.TIUFragment"
+        android:label="Intelegensia Umum"
+        tools:layout="@layout/fragment_tiu" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_twk"
+        android:name="com.nonamedev.siapcpns.ui.twk.TWKFragment"
+        android:label="Wawasan Kebangsaan"
+        tools:layout="@layout/fragment_twk" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_tkp"
+        android:name="com.nonamedev.siapcpns.ui.tkp.TKPFragment"
+        android:label="Karakteristik Pribadi"
+        tools:layout="@layout/fragment_tkp" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_banksoal"
+        android:name="com.nonamedev.siapcpns.ui.banksoal.BankSoalFragment"
+        android:label="Bank Soal"
+        tools:layout="@layout/fragment_bank_soal" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_simulasi"
+        android:name="com.nonamedev.siapcpns.ui.simulasi.SimulasiFragment"
+        android:label="Simulasi/Tryout"
+        tools:layout="@layout/fragment_simulasi" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_petunjuk"
+        android:name="com.nonamedev.siapcpns.ui.petunjuk.PetunjukFragment"
+        android:label="Petunjuk Aplikasi"
+        tools:layout="@layout/fragment_petunjuk" >
+    </fragment>
+
+</navigation>

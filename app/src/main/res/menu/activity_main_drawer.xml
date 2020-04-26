@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_tahapan"
+            android:icon="@drawable/ic_assignment_black"
+            android:title="Tahapan" />
+        <item
+            android:id="@+id/nav_pengumuman"
+            android:icon="@drawable/ic_announcement_black"
+            android:title="Pengumuman" />
+        <item
+            android:id="@+id/nav_alur"
+            android:icon="@drawable/ic_directions_walk_black"
+            android:title="Alur Pendaftaran" />
+        <item
+            android:id="@+id/nav_ambangbatas"
+            android:icon="@drawable/ic_done_all_black"
+            android:title="Ambang Batas" />
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_help_black"
+            android:title="FAQ" />
+        <item
+            android:id="@+id/nav_tips"
+            android:icon="@drawable/ic_check_black"
+            android:title="@string/tips_trick" />
+        <item
+            android:id="@+id/nav_tiu"
+            android:icon="@drawable/ic_book_black"
+            android:title="Modul TIU" />
+        <item
+            android:id="@+id/nav_twk"
+            android:icon="@drawable/ic_book_black"
+            android:title="Modul TWK" />
+        <item
+            android:id="@+id/nav_tkp"
+            android:icon="@drawable/ic_book_black"
+            android:title="Modul TKP" />
+        <item
+            android:id="@+id/nav_banksoal"
+            android:icon="@drawable/ic_assessment_black"
+            android:title="Bank Soal" />
+        <item
+            android:id="@+id/nav_simulasi"
+            android:icon="@drawable/ic_assignment_black"
+            android:title="Simulasi / Tryout" />
+        <item
+            android:id="@+id/nav_petunjuk"
+            android:icon="@drawable/ic_help_outline_black"
+            android:title="Petunjuk" />
+
+    </group>
+</menu>

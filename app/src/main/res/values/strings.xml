@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">SiapCPNS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="tips_trick"><![CDATA[Tips & Tips]]></string>
+    <string name="tahapan">Ada sekitar 7 tahapan yang harus dilalui, hingga akhirnya pelamar diterima sebagai Aparatur Negeri Sipil (ASN). Berikut alur seleksinya \n\n<b>1. Pengumuman penerimaan CPNS</b> \nDariyang sudah-sudah, penerimaan CPNS selalu diumumkan secara resmi melalui laman instansi terkait. Uniknya pendaftarannya kali ini dibuka pada tanggal cantik 11.11. Demi menghindari penipuan, pastikan website yang kamu buka hanya dari pemerintah dengan domain .go.id ya. Proses seleksi CPNS 2019 tidak jauh berbeda dengan tahun-tahun sebelumnya. Hanya saja, ada sedikit perubahan terkait penggantian soal ujian pada Seleksi Kompetensi Dasar (SKD) dan Seleksi Kompetensi Bidang (SKB). Sedangkan yang lain masih tetap sama. \n\n<b>2. Registrasi online</b> \nSetelah penerimaan resmi dibuka, buat akun terlebih dahulu di sscasn.bkn.go.id. Pada halaman tersebut, kamu akan diminta melengkapi data-data seperti NIK dan nomor KK. Jangan lupa juga mengunggah pas foto dengan latar belakang warna merah 4×6 dalam format JPG, serta cetak kartu informasi akun. \n\nPendaftaran online ini dibuka selama 15 hari kerja. Sehingga dalam kurun waktu yang lumayan panjang tersebut, pelamar bisa leluasa mempersiapkan berkas dan persyaratan selengkap-lengkapnya. Berarti paling tidak semua dokumen sudah kamu upload sebelum tanggal 24 November 2019. \n\n<b>3. Seleksi administrasi</b> \nTahap paling krusial selanjutnya dari penerimaan CPNS 2019 adalah seleksi administrasi. Login ke sscasn.bkn.go.id dengan akun yang telah didaftarkan tadi. Ikuti semua tahapannya, lalu pilih instansi, formasi, dan jabatan sesuai pendidikan. Adapun dokumen-dokumen yang perlu disiapkan sebelum melakukan pendaftaran di portal SSCASN meliputi: \n\nPas foto berwarna berlatar belakang merah \nSelfie dengan Kartu Identitas dan Kartu Informasi Akun \nKTP/Surat Keterangan Kependudukan dari Dinas Kependudukan dan Catatan Sipil \nIjazah \nTranskrip nilai \nSurat lamaran dokumen pendukung lainnya yang dipersyaratkan sesuai instansi pilihan. \nPelamar harus memastikan bahwa dokumen sudah benar-benar lengkap dan sesuai dengan formasi yang dilamar. Sebab jika ada yang kurang, kamu dianggap tidak memenuhi syarat dan bisa dinyatakan gugur di tahap ini. \n\n<b>4. Seleksi Kompetensi Dasar (SKD)</b> \nJika syarat administrasi dinyatakan lulus, pelamar kemudian akan diberi jadwal untuk mengikuti Seleksi Kompetensi Dasar (SKD). Tes ini menggunakan teknologi Computer Assisted Test alias CAT sebagai alat bantunya. Jadi peserta bisa mengerjakan soal ujian melalui komputer yang telah disediakan di setiap lokasi tes. \n\nAda 3 jenis tes yang perlu dikerjakan, antara lain Tes Wawasan Kebangsaan (TWK), Tes Intelegensi Umum (TIU), dan Tes Karakteristik Pribadi (TKP). Pelamar harus memenuhi passing grade dalam tes ini untuk bisa ke tahap selanjutnya. Dalam aturan baru, yakni Pasal 3 Permenpan 24/2019, disebutkan bahwa nilai passing grade atau ambang batas SKD CPNS 2019 minimal 126 untuk TKP, 80 untuk TIU, dan 65 untuk TWK. \n\n<b>5. Seleksi Kompetensi Bidang (SKB)</b> \nTahapan selanjutya, masih ada Seleksi Kompetensi Bidang (SKB). Lolos atau tidaknya seseorang ke tahap ini akan diurut berdasarkan peringkat nilai SKD. Maksimal peserta yang bisa mengikuti SKB pun sebanyak tiga kali jumlah kebutuhan atau formasi dari setiap jabatan. SKB di instansi pusat dapat berupa tes potensi akademik, tes praktek kerja, tes bahasa asing, tes fisik/kesamaptaan, psikotes, tes kesehatan jiwa, dan/atau wawancara dengan catatan paling sedikit dua bentuk tes. \n\n<b>6. Pengumuman Kelulusan</b>\n\nSetelah mengikuti seluruh rangkaian tes, pelamar akan menerima pengumuman kelulusan. \n\n<b>7. Pemberkasan</b>Pelamar CPNS yang lolos akan melakukan pemberkasan. Setelah lengkap, baru pelamar dinyatakan menjadi Aparatur Negeri Sipil (ASN). \n\nBegitulah kira-kira tahapan seleksi CPNS 2019. Untuk dresscode saat mengikuti tes, pakai kemeja putih polos lengan panjang, bawahan hitam polos, dan sepatu pantofel hitam. Jangan lupa juga bawa kartu ujian, KTP, dan dokumen persyaratan dalam satu map. Selamat berjuang, semoga lolos!</string>
+    <string name="pengumuman1">Kementerian Pendayagunaan Aparatur Negara dan Reformasi Birokrasi telah mengeluarkan <b>Pengumuman B/1069/M.SM.01.00/2019</b>: Informasi Penerimaan CPNS Tahun 2019 di Lingkungan Pemerintah Pusat dan Daerah.
+        \n\ndengan point-point sebagai berikut:
+        \n\n<ul><li>Pada Tahun Anggaran 2019 akan dibuka penerimaan Galon Pegawai Negeri Sipil di 68 Kementerian/Lembaga dan 462 Pemerintah Provinsi/Kabupaten/Kota.</li>
+            \n<li>Pendaftaran direncanakan dimulai pada tanggal 11 November 2019, secara online melalui SSCASN BKN.</li>
+            \n<li>Pelamar hanya bisa mendaftar di 1 (satu) instansi dan 1 (satu) formasi jabatan di Kementerian/Lembaga/Pemerintah Daerah Provinsi/Kabupaten/Kota.</li>
+            \n<li>Seleksi Kompetensi Dasar (SKD) menggunakan Computer Assisted Test (CAT) direncanakan dimulai bulan Februari 2020 dan Seleksi Kompetensi Bidang (SKB) pada bulan Maret 2020.</li>
+            \n<li>Pengumuman lebih lanjut terkait persyaratan pendaftaran dan lain-lain, akan diumumkan oleh Badan Kepegawaian Negara dan instansi masing-masing.</li></ul>
+            \n\nPengumuman lengkap dalam format pdf dapat kamu lihat melalui link dibawah ini:</string>
+    <string name="pengumuman2">Selain itu, BKN (Badan Kepegawaian Negara), telah mengeluarkan SIARAN PERS, yang selengkapnya dapat dilihat dengan klik link dibawah ini:</string>
+    <string name="faq1">Pertanyaan yang sering diajukan terkait Proses Seleksi CPNS. \n\nsumber: sscasn BKN. \nQ: question (pertanyaan) | \nA: answer (jawaban)</string>
+    <string name="ambangbatas">Nilai Ambang Batas CPNS 2019 ditetapkan dengan Permenpan RB No 24 Tahun 2019.
+        \n\n<b>Pasal 1</b> \nNilai ambang batas Seleksi Kompetensi Dasar adalah nilai minimal yang harus dipenuhi oleh setiap peserta seleksi Calon Pegawai Negeri Sipil.
+        \n\n<b>Pasal 2</b> \nSeleksi Kompetensi Dasar Calon Pegawai Negeri Sipil Tahun 2019 meliputi:
+        \n1. Tes Karakteristik Pribadi (TKP);
+        \n2. Tes Intelegensia Umum (TIU); dan
+        \n3. Tes Wawasan Kebangsaan (TWK).
+        \n\n<b>Pasal 3</b> \nNilai ambang batas Seleksi Kompetensi Dasar Calon Pegawai Negeri Sipil Tahun 2019 sebagaimana dimaksud dalam Pasal 2 yaitu:
+        \na. 126 (seratus dua puluh enam) untuk TKP;
+        \nb. 80 (delapan puluh) untuk TIU; dan
+        \nc. 65 (enam puluh lima) untuk TWK.
+        \n\n<b>Pasal 4</b>
+        \nKetentuan sebagaimana dimaksud dalam Pasal 3 dikecualikan bagi peserta yang mendaftar pada jenis penetapan kebutuhan Formasi Khusus:
+        \na. Putra/Putri Lulusan Terbaik Berpredikat “Dengan Pujian” /Cum Laude;
+        \nb. Penyandang Disabilitas;
+        \nc. Putra/Putri Papua dan Papua Barat; dan
+        \nd. Diaspora.
+        \n\n<b>Pasal 5</b>
+        \nNilai ambang batas Seleksi Kompetensi Dasar Calon Pegawai Negeri Sipil Tahun 2019 pada jenis penetapan kebutuhan Formasi Khusus Tenaga Pengamanan Siber (Cyber Security) berlaku ketentuan Pasal 3.
+        \n\n<b>Pasal 6</b> \nPenetapan nilai ambang batas Seleksi Kompetensi Dasar bagi peserta sebagaimana dimaksud dalam Pasal 4 berlaku ketentuan sebagai berikut:
+        \na. nilai kumulatif Seleksi Kompetensi Dasar bagi Putra/Putri Lulusan Terbaik Berpredikat “Dengan Pujian”/Cum Laude dan Diaspora paling rendah 271 (dua ratus tujuh puluh satu), dengan nilai TIU paling rendah 85 (delapan puluh lima);
+        \nb. nilai kumulatif Seleksi Kompetensi Dasar bagi Penyandang Disabilitas paling rendah 260 (dua ratus enam puluh), dengan nilai TIU paling rendah 70 (tujuh puluh); dan
+        \nc. nilai kumulatif Seleksi Kompetensi Dasar bagi Putra/Putri Papua dan Papua Barat paling rendah 260 (dua ratus enam puluh), dengan nilai TIU paling rendah 60 (enam puluh).
+        \n\n<b>Pasal 7</b>
+        \nUntuk jabatan Dokter Spesialis, Dokter Gigi Spesialis, Dokter Pendidik Klinis, Dokter, Dokter Gigi, Instruktur Penerbang, Rescuer, Bosun, Jenang Kapal, Juru Mesin Kapal, Juru Minyak Kapal, Juru Mudi Kapal, Kelasi, Kerani, Oiler, Nakhoda, Mualim Kapal, Kepala Kamar Mesin Kapal, Masinis Kapal, Mandor Mesin Kapal, Juru Masak Kapal dan Pengamat Gunung Api pada penetapan kebutuhan Formasi Umum, nilai ambang batas Seleksi Kompetensi Dasar diberikan pengecualian.
+        \n\n<b>Pasal 8</b>
+        \nPengecualian nilai ambang batas Seleksi Kompetensi Dasar bagi jabatan sebagaimana dimaksud dalam Pasal 7 berlaku ketentuan sebagai berikut:
+        \na. Nilai kumulatif Seleksi Kompetensi Dasar bagi formasi jabatan Dokter Spesialis, Dokter Gigi Spesialis, Dokter Pendidik Klinis, Dokter, Dokter Gigi, Instruktur Penerbang paling rendah 271 (dua ratus tujuh puluh satu), dengan nilai TIU 80 (delapan puluh); dan
+        \nb. Nilai kumulatif Seleksi Kompetensi Dasar bagi formasi jabatan Rescuer, Bosun, Jenang Kapal, Juru Mesin Kapal, Juru Minyak Kapal, Juru Mudi Kapal, Kelasi, Kerani, Oiler, Nakhoda, Mualim Kapal, Kepala Kamar Mesin Kapal, Masinis Kapal, Mandor Mesin Kapal, Juru Masak Kapal dan Pengamat Gunung Api paling rendah 260 (dua ratus enam puluh), dengan nilai TIU paling rendah 70 (tujuh puluh).
+        \n\n<b>Pasal 9</b> \nPeraturan Menteri ini mulai berlaku pada tanggal diundangkan.
+        \n\nPenjelasan Pasal 3:
+        \n\nSeleksi Kompetensi Dasar terdiri dari 3 (tiga) materi soal yaitu Tes Karakteristik Pribadi (TKP), Tes Intelegensia Umum (TIU), dan Tes
+        \nWawasan Kebangsaan (TWK). Jumlah soal keseluruhan adalah 100 (seratus) terdiri dari soal TKP 35 (tiga puluh lima) butir soal, soal TIU 35 (tiga puluh lima) butir soal, dan soal TWK 30 (tiga puluh) butir soal.
+        \n\nPenilaian untuk materi soal TIU dan TWK apabila menjawab benar nilainya 5 (lima) dan apabila salah atau tidak menjawab nilainya 0 (nol).
+        \nPenilaian untuk materi soal TKP apabila menjawab nilai terendah 1 (satu) dan nilai tertinggi 5 (lima) serta tidak menjawab nilainya 0 (nol).
+        \n\nDengan demikian, nilai kumulatif maksimal adalah 500 (lima ratus) terdiri dari: nilai maksimal untuk TKP: 175 (seratus tujuh puluh lima), TIU: 175 (seratus tujuh puluh lima), dan TWK: 150 (seratus lima puluh).
+        \n\nPERMENPAN RB No 24/2019 dalam format pdf dapat dilihat dengan klik link dibawah ini:</string>
+    <string name="alur1">Pendaftaran CPNS dilakukan melalui SSCASN atau Sistem Seleksi Calon Aparatur Sipil Negara. SSCASN adalah situs resmi pendaftaran ASN secara nasional sebagai pintu pendaftaran pertama seleksi ASN ke seluruh instansi baik Pusat maupun Daerah dan dikelola oleh Badan Kepegawaian Negara RI sebagai Panitia Seleksi Penerimaan Nasional. SSCASN diakses pada alamat https://sscasn.bkn.go.id</string>
+    <string name="alur2">Petunjuk Lengkap tentang Cara Pendaftaran melalui SSCASN BKN, dapat dilihat pada Buku Petunjuk dalam format Pdf, dengan klik link di bawah ini.</string>
+    <string name="alur3">Pertanyaan yang sering diajukan dalam proses Seleksi CPNS, dapat dilihat pada menu FAQ di Aplikasi ini.</string>
+    <string name="tips_trick_ujian_tertulis"><ul><li><b>Tips &amp; Trick Ujian Tertulis</b></li></ul></string>
+    <string name="tips_trick_belajar_dan_ujian"><![CDATA[Tips & Trick Belajar dan Ujian]]></string>
+</resources>

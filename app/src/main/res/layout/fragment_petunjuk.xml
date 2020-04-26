@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.petunjuk.PetunjukFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Petunjuk Penggunaan semua fitur pada Aplikasi ini.
+
+Untuk menggunakan Aplikasi ini, Smartphone/Ponsel harus selalu terhubung ke Internet.
+
+
+INFORMASI PENDAFTARAN
+
+Informasi mengenai Tahapan Seleksi CPNS, Semua update berita, informasi, maupun pengumuman pendaftaran terbaru, Informasi Alur Pendaftaran, Nilai Ambang Batas dan Jumlah Soal, serta FAQ (Frequently Asked Questions) seputar Seleksi CPNS; dapat dilihat disini.
+
+
+MODUL/MATERI BELAJAR
+
+Konten utama Aplikasi ini. Disajikan dalam 4 Modul Utama: Tips &amp; Trik, TIU (Tes Intelegensia Umum), TWK (Tes Wawasan Kebangsaan), dan TKP (Tes Karakteristik Pribadi).
+
+Materi Modul lengkap, mulai dari Bahan Belajar, Ringkasan Materi, Rumus-rumus, Cara Cepat Pengerjaan Soal, serta Ratusan contoh soal yang disertai dengan pembahasan; juga tips dan trik belajar.
+
+Pada setiap Modul, akan muncul daftar materi/submateri yang harus kamu pelajari. Klik pada masing-masing judul materi untuk mulai membaca/mengerjakan soal-soal latihan
+
+
+BANK SOAL
+
+Latih kemampuan dalam mengerjakan soal, dengan mengerjakan Paket Soal yang terbagi berdasarkan bagian ujian (TIU, TWK, TKP). Di bagian Bank Soal, kami mendesain kamu tidak bisa mengganti jawaban. Nilai dari jawabanmu akan dikalkulasi pada bagian akhir simulasi. Di Bagian akhir simulasi, kamu juga bisa melihat Kunci Jawaban dengan klik tombol 'Review Simulasi' di kanan atas (untuk TIU dan TWK).
+
+
+SIMULASI / TRY OUT
+
+Uji kemampuanmu mengerjakan soal dengan fitur Simulasi / Try Out. Simulasi didesain dengan sistem mirip dengan ujian sebenarnya nanti: Model Soal, Jumlah Soal, Waktu, serta Scoring.
+
+klik menu Simulasi/Try Out, akan muncul Pilihan Paket Soal yang bisa dikerjakan.
+
+Perhatikan petunjuk khusus yang diberikan di awal simulasi. Apabila sudah siap, klik 'Mulai Try Out' di bagian bawah (setelah Teks Petunjuk).
+
+Jawab pertanyaan dengan memilih jawaban yang tepat. Pengerjaan soal tidak harus urut, tersedia tombol untuk memilih soal.
+
+Tersedia juga 'Pagination', yaitu kotak-kotak dengan angka di bagian bawah soal, yang bisa dipergunakan untuk memilih nomor soal.
+
+Setelah selesai menjawab semua pertanyaan, selesaikan Try Out dengan klik 'submit' di bagian akhir Try Out. (klik submit hanya bisa dilakukan di soal nomor terakhir).
+
+Selanjutnya, sistem akan mengkalkulasi jawaban, dan hasilnya akan ditampilkan; beserta kunci jawaban dan pembahasan setiap soal." />
+
+</FrameLayout>
