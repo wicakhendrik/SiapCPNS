@@ -98,4 +98,5 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="bak_soal_des">Latih Kemampuan dengan mengerjakan Paket Soal yang terbagi berdasarkan bagian ujian. \n\nDibagian Akir simulasi, nilai akan di kalkulasi. Untuk TIU dan TWK, kamu dapat melihat kunci jawaban dengan klik tombol "Review Simulasi" pada Bagian kanan atas di akhir simulasi</string>
 </resources>

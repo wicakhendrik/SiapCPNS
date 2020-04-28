@@ -1,13 +1,412 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.banksoal.BankSoalFragment">
+    tools:context=".ui.alur.AlurFragment">
 
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello" />
+        android:layout_height="wrap_content">
 
-</FrameLayout>
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="392dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/bak_soal_des"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textViewBankTIU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="40dp"
+            android:text="Bank Soal TIU"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <ImageButton
+            android:id="@+id/imageButtonTIU1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/selector"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBankTIU"
+            app:srcCompat="@drawable/tiu" />
+
+        <TextView
+            android:id="@+id/textViewTIU1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paket A"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            app:fontFamily="sans-serif"
+            app:layout_constraintEnd_toEndOf="@+id/imageButtonTIU1"
+            app:layout_constraintStart_toStartOf="@+id/imageButtonTIU1"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonTIU1" />
+
+        <ImageButton
+            android:id="@+id/imageButtonTIU2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/selector"
+            android:scaleType="fitCenter"
+
+            app:layout_constraintStart_toEndOf="@+id/imageButtonTIU1"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBankTIU"
+            app:srcCompat="@drawable/tiu" />
+
+        <TextView
+            android:id="@+id/textViewTIU2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paket B"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            app:fontFamily="sans-serif"
+            app:layout_constraintEnd_toEndOf="@+id/imageButtonTIU2"
+            app:layout_constraintStart_toStartOf="@+id/imageButtonTIU2"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonTIU2"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonTIU3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/selector"
+            android:scaleType="fitCenter"
+
+            app:layout_constraintStart_toEndOf="@+id/imageButtonTIU2"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBankTIU"
+            app:srcCompat="@drawable/tiu" />
+
+        <TextView
+            android:id="@+id/textViewTIU3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paket C"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            app:fontFamily="sans-serif"
+            app:layout_constraintEnd_toEndOf="@+id/imageButtonTIU3"
+            app:layout_constraintStart_toStartOf="@+id/imageButtonTIU3"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonTIU3"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonTIU4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/selector"
+            android:scaleType="fitCenter"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButtonTIU3"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBankTIU"
+            app:srcCompat="@drawable/tiu" />
+
+        <TextView
+            android:id="@+id/textViewTIU4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paket D"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            app:fontFamily="sans-serif"
+            app:layout_constraintEnd_toEndOf="@+id/imageButtonTIU4"
+            app:layout_constraintStart_toStartOf="@+id/imageButtonTIU4"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonTIU4"/>
+
+        <TextView
+            android:id="@+id/textViewBankTWK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="24dp"
+            android:text="Bank Soal TWK"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTIU1" />
+
+        <ImageButton
+            android:id="@+id/imageButtonTWK1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/selector"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBankTWK"
+            app:srcCompat="@drawable/twk" />
+
+        <TextView
+            android:id="@+id/textViewTWK1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paket A"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            app:fontFamily="sans-serif"
+            app:layout_constraintEnd_toEndOf="@+id/imageButtonTWK1"
+            app:layout_constraintStart_toStartOf="@+id/imageButtonTWK1"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonTWK1" />
+
+        <ImageButton
+            android:id="@+id/imageButtonTWK2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/selector"
+            android:scaleType="fitCenter"
+
+            app:layout_constraintStart_toEndOf="@+id/imageButtonTWK1"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBankTWK"
+            app:srcCompat="@drawable/twk" />
+
+        <TextView
+            android:id="@+id/textViewTWK2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paket B"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            app:fontFamily="sans-serif"
+            app:layout_constraintEnd_toEndOf="@+id/imageButtonTWK2"
+            app:layout_constraintStart_toStartOf="@+id/imageButtonTWK2"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonTWK2"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonTWK3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/selector"
+            android:scaleType="fitCenter"
+
+            app:layout_constraintStart_toEndOf="@+id/imageButtonTWK2"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBankTWK"
+            app:srcCompat="@drawable/twk" />
+
+        <TextView
+            android:id="@+id/textViewTWK3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paket C"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            app:fontFamily="sans-serif"
+            app:layout_constraintEnd_toEndOf="@+id/imageButtonTWK3"
+            app:layout_constraintStart_toStartOf="@+id/imageButtonTWK3"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonTWK3"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonTWK4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/selector"
+            android:scaleType="fitCenter"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButtonTWK3"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBankTWK"
+            app:srcCompat="@drawable/twk" />
+
+        <TextView
+            android:id="@+id/textViewTWK4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paket D"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            app:fontFamily="sans-serif"
+            app:layout_constraintEnd_toEndOf="@+id/imageButtonTWK4"
+            app:layout_constraintStart_toStartOf="@+id/imageButtonTWK4"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonTWK4"/>
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/textViewBankTKP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="24dp"
+            android:text="Bank Soal TKP"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTWK1" />
+
+        <ImageButton
+            android:id="@+id/imageButtonTKP1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/selector"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBankTKP"
+            app:srcCompat="@drawable/tkp" />
+
+        <TextView
+            android:id="@+id/textViewTKP1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paket A"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            app:fontFamily="sans-serif"
+            app:layout_constraintEnd_toEndOf="@+id/imageButtonTKP1"
+            app:layout_constraintStart_toStartOf="@+id/imageButtonTKP1"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonTKP1" />
+
+        <ImageButton
+            android:id="@+id/imageButtonTKP2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/selector"
+            android:scaleType="fitCenter"
+
+            app:layout_constraintStart_toEndOf="@+id/imageButtonTKP1"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBankTKP"
+            app:srcCompat="@drawable/tkp" />
+
+        <TextView
+            android:id="@+id/textViewTKP2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paket B"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            app:fontFamily="sans-serif"
+            app:layout_constraintEnd_toEndOf="@+id/imageButtonTKP2"
+            app:layout_constraintStart_toStartOf="@+id/imageButtonTKP2"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonTKP2"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonTKP3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/selector"
+            android:scaleType="fitCenter"
+
+            app:layout_constraintStart_toEndOf="@+id/imageButtonTKP2"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBankTKP"
+            app:srcCompat="@drawable/tkp" />
+
+        <TextView
+            android:id="@+id/textViewTKP3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paket C"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            app:fontFamily="sans-serif"
+            app:layout_constraintEnd_toEndOf="@+id/imageButtonTKP3"
+            app:layout_constraintStart_toStartOf="@+id/imageButtonTKP3"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonTKP3"/>
+
+        <ImageButton
+            android:id="@+id/imageButtonTKP4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/selector"
+            android:scaleType="fitCenter"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButtonTKP3"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBankTKP"
+            app:srcCompat="@drawable/tkp" />
+
+        <TextView
+            android:id="@+id/textViewTKP4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paket D"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            app:fontFamily="sans-serif"
+            app:layout_constraintEnd_toEndOf="@+id/imageButtonTKP4"
+            app:layout_constraintStart_toStartOf="@+id/imageButtonTKP4"
+            app:layout_constraintTop_toBottomOf="@+id/imageButtonTKP4"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
