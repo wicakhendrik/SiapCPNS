@@ -1,6 +1,7 @@
 package com.nonamedev.siapcpns.ui.home;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
@@ -48,7 +49,10 @@ public class HomeFragment extends Fragment {
         ImageButton btn7 = (ImageButton) root.findViewById(R.id.imageButton7);
         ImageButton btn8 = (ImageButton) root.findViewById(R.id.imageButton8);
         ImageButton btn9 = (ImageButton) root.findViewById(R.id.imageButton9);
+        ImageButton btn10 = (ImageButton) root.findViewById(R.id.imageButton10);
+        ImageButton btn11 = (ImageButton) root.findViewById(R.id.imageButton11);
         Button btn12 = (Button) root.findViewById(R.id.button);
+        Button btn13 = (Button) root.findViewById(R.id.button2);
         btn1.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_tahapan, null));
         btn2.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_pengumuman, null));
         btn3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_alur, null));
@@ -58,7 +62,17 @@ public class HomeFragment extends Fragment {
         btn7.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_tiu, null));
         btn8.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_twk, null));
         btn9.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_tkp, null));
+        btn10.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_banksoal, null));
+        btn11.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_simulasi, null));
         btn12.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_petunjuk, null));
+        btn13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=com.cpns.vilo"));
+                startActivity(intent);
+            }
+        });
         return root;
     }
 

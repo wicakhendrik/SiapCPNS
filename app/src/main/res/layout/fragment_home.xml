@@ -292,7 +292,7 @@
             app:layout_constraintTop_toBottomOf="@+id/imageButton9" />
 
         <ImageButton
-            android:id="@+id/imageButton15"
+            android:id="@+id/imageButton10"
             android:layout_width="115dp"
             android:layout_height="74dp"
             android:layout_marginStart="16dp"
@@ -301,14 +301,14 @@
             android:adjustViewBounds="true"
             android:background="#00FFFFFF"
             android:scaleType="fitCenter"
-            app:layout_constraintEnd_toStartOf="@+id/imageButton16"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton11"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView9"
             app:srcCompat="@drawable/banksoal" />
 
         <ImageButton
-            android:id="@+id/imageButton16"
+            android:id="@+id/imageButton11"
             android:layout_width="234dp"
             android:layout_height="73dp"
             android:layout_marginTop="44dp"
@@ -329,10 +329,11 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="24dp"
             android:text="PETUNJUK APLIKASI"
+            style="@style/Widget.AppCompat.Button.Colored"
             app:layout_constraintEnd_toStartOf="@+id/button2"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton15" />
+            app:layout_constraintTop_toBottomOf="@+id/imageButton10" />
 
         <Button
             android:id="@+id/button2"
@@ -341,9 +342,10 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:text="CEK UPDATE APLIKASI / BERI RATING"
+            style="@style/Widget.AppCompat.Button.Colored"
             app:layout_constraintBottom_toBottomOf="@+id/button"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton15"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton11"
             app:layout_constraintVertical_bias="1.0" />
 
 

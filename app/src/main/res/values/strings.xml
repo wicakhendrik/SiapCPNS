@@ -84,19 +84,10 @@
     <string name="action_about">about</string>
     <string name="title_activity_settings">Settings</string>
 
-    <!-- Preference Titles -->
-    <string name="messages_header">Messages</string>
-    <string name="sync_header">Sync</string>
-
-    <!-- Messages Preferences -->
-    <string name="signature_title">Your signature</string>
-    <string name="reply_title">Default reply action</string>
-
-    <!-- Sync Preferences -->
-    <string name="sync_title">Sync email periodically</string>
-    <string name="attachment_title">Download incoming attachments</string>
-    <string name="attachment_summary_on">Automatically download attachments for incoming emails
-    </string>
-    <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="bak_soal_des">Latih Kemampuan dengan mengerjakan Paket Soal yang terbagi berdasarkan bagian ujian. \n\nDibagian Akir simulasi, nilai akan di kalkulasi. Untuk TIU dan TWK, kamu dapat melihat kunci jawaban dengan klik tombol "Review Simulasi" pada Bagian kanan atas di akhir simulasi</string>
+    <string name="padanan_kata"><ul><li><b>Padanan Kata</b></li></ul></string>
+    <string name="sinonim_dan_antonim"><ul><li><b>Sinonim dan Antonim</b></li></ul></string>
+    <string name="aritmatika_dan_aljabar"><ul><li><b>Aritmatika dan Aljabar</b></li></ul></string>
+    <string name="persamaan_linear"><ul><li><b>Persamaan Linear</b></li></ul></string>
+    <string name="pengukuran_kecepatan_jarak_amp_waktu"><ul><li><b>Pengukuran, Kecepatan, Jarak &amp; Waktu</b></li></ul></string>
 </resources>

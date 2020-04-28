@@ -32,6 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="Lihat Pengumuman"
+            style="@style/Widget.AppCompat.Button.Colored"
             app:layout_constraintStart_toStartOf="@+id/textViewpengumuman1"
             app:layout_constraintTop_toBottomOf="@+id/textViewpengumuman1" />
 
@@ -57,6 +58,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:text="Siaran Pers BKN"
+            style="@style/Widget.AppCompat.Button.Colored"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@+id/textViewpengumuman2"
             app:layout_constraintTop_toBottomOf="@+id/textViewpengumuman2"
