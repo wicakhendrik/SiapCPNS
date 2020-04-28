@@ -86,11 +86,10 @@
 
     <string name="bak_soal_des">Latih Kemampuan dengan mengerjakan Paket Soal yang terbagi berdasarkan bagian ujian. \n\nDibagian Akir simulasi, nilai akan di kalkulasi. Untuk TIU dan TWK, kamu dapat melihat kunci jawaban dengan klik tombol "Review Simulasi" pada Bagian kanan atas di akhir simulasi</string>
     <string name="padanan_kata"><ul><li><b>Padanan Kata</b></li></ul></string>
-    <string name="sinonim_dan_antonim"><ul><li><b>Sinonim dan Antonim</b></li></ul></string>
     <string name="aritmatika_dan_aljabar"><ul><li><b>Aritmatika dan Aljabar</b></li></ul></string>
     <string name="persamaan_linear"><ul><li><b>Persamaan Linear</b></li></ul></string>
     <string name="pengukuran_kecepatan_jarak_amp_waktu"><ul><li><b>Pengukuran, Kecepatan, Jarak &amp; Waktu</b></li></ul></string>
-    <string name="pancasila_nilai_asal_usul_kedudukan"><ul><li><b><![CDATA[Pancasila - Nilai, Asal-Usul & Kedudukan]]></b></li></ul></string>
+    <string name="pancasila_nilai_asal_usul_kedudukan">Pancasila - Nilai, Asal-Usul &amp; Kedudukan</string>
     <string name="pancasila_dan_lambang_negara"><ul><li><b>Pancasila dan Lambang Negara</b></li></ul></string>
     <string name="uud_1945"><ul><li><b>UUD 1945</b></li></ul></string>
     <string name="tata_negara_dan_hukum"><ul><li><b>Tata Negara dan Hukum</b></li></ul></string>

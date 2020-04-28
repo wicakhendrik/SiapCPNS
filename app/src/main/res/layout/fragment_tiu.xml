@@ -47,7 +47,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="@string/sinonim_dan_antonim"
+            android:text="Sinonim dan Antonim"
             android:textAllCaps="false"
             style="@style/Widget.AppCompat.Button.Colored"
             app:layout_constraintEnd_toEndOf="parent"
