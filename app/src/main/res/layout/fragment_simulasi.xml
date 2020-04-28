@@ -1,13 +1,154 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.simulasi.SimulasiFragment">
 
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello" />
+        android:layout_height="wrap_content">
 
-</FrameLayout>
+        <ImageView
+            android:id="@+id/imageViewSim"
+            android:layout_width="400dp"
+            android:layout_height="156dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.523"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/banner" />
+
+        <TextView
+            android:id="@+id/textViewSim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Paket Simulasi/Tryout"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewSim" />
+
+        <ImageButton
+            android:id="@+id/imageButton1Sim"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/selector"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewSim"
+            app:srcCompat="@drawable/check" />
+
+        <TextView
+            android:id="@+id/textView1Sim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paket 1"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            app:fontFamily="sans-serif"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton1Sim"
+            app:layout_constraintStart_toStartOf="@+id/imageButton1Sim"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton1Sim" />
+
+        <ImageButton
+            android:id="@+id/imageButton2Sim"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/selector"
+            android:scaleType="fitCenter"
+
+            app:layout_constraintStart_toEndOf="@+id/imageButton1Sim"
+            app:layout_constraintTop_toBottomOf="@+id/textViewSim"
+            app:srcCompat="@drawable/check" />
+
+        <TextView
+            android:id="@+id/textView2Sim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paket 2"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            app:fontFamily="sans-serif"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton2Sim"
+            app:layout_constraintStart_toStartOf="@+id/imageButton2Sim"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton2Sim"/>
+
+        <ImageButton
+            android:id="@+id/imageButton3Sim"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/selector"
+            android:scaleType="fitCenter"
+
+            app:layout_constraintStart_toEndOf="@+id/imageButton2Sim"
+            app:layout_constraintTop_toBottomOf="@+id/textViewSim"
+            app:srcCompat="@drawable/check" />
+
+        <TextView
+            android:id="@+id/textView3Sim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paket 2"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            app:fontFamily="sans-serif"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton3Sim"
+            app:layout_constraintStart_toStartOf="@+id/imageButton3Sim"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton3Sim"/>
+
+        <ImageButton
+            android:id="@+id/imageButton4Sim"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/selector"
+            android:scaleType="fitCenter"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButton3Sim"
+            app:layout_constraintTop_toBottomOf="@+id/textViewSim"
+            app:srcCompat="@drawable/check" />
+
+        <TextView
+            android:id="@+id/textView4Sim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paket 2"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            app:fontFamily="sans-serif"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton4Sim"
+            app:layout_constraintStart_toStartOf="@+id/imageButton4Sim"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton4Sim"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
