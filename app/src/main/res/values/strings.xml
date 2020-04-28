@@ -65,4 +65,37 @@
     <string name="alur3">Pertanyaan yang sering diajukan dalam proses Seleksi CPNS, dapat dilihat pada menu FAQ di Aplikasi ini.</string>
     <string name="tips_trick_ujian_tertulis"><ul><li><b>Tips &amp; Trick Ujian Tertulis</b></li></ul></string>
     <string name="tips_trick_belajar_dan_ujian"><![CDATA[Tips & Trick Belajar dan Ujian]]></string>
+    <string name="petunjuk">Petunjuk Penggunaan semua fitur pada Aplikasi ini.
+        \n\nUntuk menggunakan Aplikasi ini, Smartphone/Ponsel harus selalu terhubung ke Internet.
+        \n\n\n<b>INFORMASI PENDAFTARAN</b>
+        \n\nInformasi mengenai Tahapan Seleksi CPNS, Semua update berita, informasi, maupun pengumuman pendaftaran terbaru, Informasi Alur Pendaftaran, Nilai Ambang Batas dan Jumlah Soal, serta FAQ (Frequently Asked Questions) seputar Seleksi CPNS; dapat dilihat disini.
+        \n\n\n<b>MODUL/MATERI BELAJAR</b>
+        \n\nKonten utama Aplikasi ini. Disajikan dalam 4 Modul Utama: Tips &amp; Trik, TIU (Tes Intelegensia Umum), TWK (Tes Wawasan Kebangsaan), dan TKP (Tes Karakteristik Pribadi).
+        \n\nMateri Modul lengkap, mulai dari Bahan Belajar, Ringkasan Materi, Rumus-rumus, Cara Cepat Pengerjaan Soal, serta Ratusan contoh soal yang disertai dengan pembahasan; juga tips dan trik belajar.
+        \n\nPada setiap Modul, akan muncul daftar materi/submateri yang harus kamu pelajari. Klik pada masing-masing judul materi untuk mulai membaca/mengerjakan soal-soal latihan
+        \n\n\n<b>BANK SOAL</b>
+        \n\nLatih kemampuan dalam mengerjakan soal, dengan mengerjakan Paket Soal yang terbagi berdasarkan bagian ujian (TIU, TWK, TKP). Di bagian Bank Soal, kami mendesain kamu tidak bisa mengganti jawaban. Nilai dari jawabanmu akan dikalkulasi pada bagian akhir simulasi. Di Bagian akhir simulasi, kamu juga bisa melihat Kunci Jawaban dengan klik tombol \'Review Simulasi\' di kanan atas (untuk TIU dan TWK).
+        \n\n\n<b>SIMULASI / TRY OUT</b>
+        \n\nUji kemampuanmu mengerjakan soal dengan fitur Simulasi / Try Out. Simulasi didesain dengan sistem mirip dengan ujian sebenarnya nanti: Model Soal, Jumlah Soal, Waktu, serta Scoring.
+        \n\nklik menu Simulasi/Try Out, akan muncul Pilihan Paket Soal yang bisa dikerjakan. \n\nPerhatikan petunjuk khusus yang diberikan di awal simulasi. Apabila sudah siap, klik \'Mulai Try Out\' di bagian bawah (setelah Teks Petunjuk).
+        \n\nJawab pertanyaan dengan memilih jawaban yang tepat. Pengerjaan soal tidak harus urut, tersedia tombol untuk memilih soal. \n\nTersedia juga \'Pagination\', yaitu kotak-kotak dengan angka di bagian bawah soal, yang bisa dipergunakan untuk memilih nomor soal.
+        \n\nSetelah selesai menjawab semua pertanyaan, selesaikan Try Out dengan klik \'submit\' di bagian akhir Try Out. (klik submit hanya bisa dilakukan di soal nomor terakhir).
+        \n\nSelanjutnya, sistem akan mengkalkulasi jawaban, dan hasilnya akan ditampilkan; beserta kunci jawaban dan pembahasan setiap soal.</string>
+    <string name="action_about">about</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
 </resources>

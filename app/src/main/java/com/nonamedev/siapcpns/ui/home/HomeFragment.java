@@ -1,9 +1,12 @@
 package com.nonamedev.siapcpns.ui.home;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 import androidx.annotation.NonNull;
@@ -12,7 +15,9 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.navigation.Navigation;
 
+import com.nonamedev.siapcpns.AboutActivity;
 import com.nonamedev.siapcpns.R;
+import com.nonamedev.siapcpns.SettingsActivity;
 import com.nonamedev.siapcpns.ui.tahapan.TahapanFragment;
 
 public class HomeFragment extends Fragment {
@@ -40,12 +45,20 @@ public class HomeFragment extends Fragment {
         ImageButton btn4 = (ImageButton) root.findViewById(R.id.imageButton4);
         ImageButton btn5 = (ImageButton) root.findViewById(R.id.imageButton5);
         ImageButton btn6 = (ImageButton) root.findViewById(R.id.imageButton6);
+        ImageButton btn7 = (ImageButton) root.findViewById(R.id.imageButton7);
+        ImageButton btn8 = (ImageButton) root.findViewById(R.id.imageButton8);
+        ImageButton btn9 = (ImageButton) root.findViewById(R.id.imageButton9);
+        Button btn12 = (Button) root.findViewById(R.id.button);
         btn1.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_tahapan, null));
         btn2.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_pengumuman, null));
         btn3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_alur, null));
         btn4.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_ambangbatas, null));
         btn5.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_faq, null));
         btn6.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_tips, null));
+        btn7.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_tiu, null));
+        btn8.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_twk, null));
+        btn9.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_tkp, null));
+        btn12.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_petunjuk, null));
         return root;
     }
 

@@ -97,4 +97,17 @@
         tools:layout="@layout/fragment_petunjuk" >
     </fragment>
 
+    <activity
+        android:id="@+id/nav_settings"
+        android:name="com.nonamedev.siapcpns.SettingsActivity"
+        android:label="Settings"
+        tools:layout="@layout/settings_activity" >
+    </activity>
+
+    <activity
+        android:id="@+id/nav_about"
+        android:name="com.nonamedev.siapcpns.AboutActivity"
+        android:label="About"
+        tools:layout="@layout/activity_about"></activity>
+
 </navigation>
