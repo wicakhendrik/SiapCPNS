@@ -7,10 +7,12 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.Navigation;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import com.nonamedev.siapcpns.R;
 
@@ -25,7 +27,15 @@ public class TKPFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_tkp, container, false);
+        View tkp = inflater.inflate(R.layout.fragment_tkp, container, false);
+        Button btn1 = (Button) tkp.findViewById(R.id.buttonTKPB1);
+        Button btn2 = (Button) tkp.findViewById(R.id.buttonTKPB2);
+        Button btn3 = (Button) tkp.findViewById(R.id.buttonTKPB3);
+        btn1.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_pengertianTKP, null));
+        btn2.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_tips_tkp, null));
+        btn3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.nav_pembahasan_tkp, null));
+        return tkp;
+
     }
 
     @Override

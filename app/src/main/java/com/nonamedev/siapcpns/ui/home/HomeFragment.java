@@ -30,16 +30,6 @@ public class HomeFragment extends Fragment {
         homeViewModel =
                 ViewModelProviders.of(this).get(HomeViewModel.class);
         View root = inflater.inflate(R.layout.fragment_home, container, false);
-        ImageButton btnTahapanActivity = (ImageButton) root.findViewById(R.id.imageButton1);
-        btnTahapanActivity.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Fragment fragment= new TahapanFragment();
-                FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
-                transaction.replace(R.id.drawer_layout, fragment); // fragmen container id in first parameter is the  container(Main layout id) of Activity
-                transaction.commit();
-            }
-        });
         ImageButton btn1 = (ImageButton) root.findViewById(R.id.imageButton1);
         ImageButton btn2 = (ImageButton) root.findViewById(R.id.imageButton2);
         ImageButton btn3 = (ImageButton) root.findViewById(R.id.imageButton3);

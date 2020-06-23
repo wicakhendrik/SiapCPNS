@@ -97,6 +97,41 @@
         tools:layout="@layout/fragment_petunjuk" >
     </fragment>
 
+    <fragment
+        android:id="@+id/nav_overview"
+        android:name="com.nonamedev.siapcpns.ui.overview.OverviewFragment"
+        android:label="Overview SKD"
+        tools:layout="@layout/fragment_overview" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_trik"
+        android:name="com.nonamedev.siapcpns.ui.trik.TrikFragment"
+        android:label="Tips &amp; Trik Belajar dan Ujian"
+        tools:layout="@layout/fragment_trik" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_pengertianTKP"
+        android:name="com.nonamedev.siapcpns.ui.pengertiantkp.PengertianTKPFragment"
+        android:label="Apa itu TKP?"
+        tools:layout="@layout/fragment_pengertiantkp" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_tips_tkp"
+        android:name="com.nonamedev.siapcpns.ui.tipstkp.TipsTKPFragment"
+        android:label="Tips &amp; Trik TKP"
+        tools:layout="@layout/fragment_trik" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_pembahasan_tkp"
+        android:name="com.nonamedev.siapcpns.ui.pembahasantkp.PembahasanTKPFragment"
+        android:label="Pembahasan Aspek dan Contoh Soal TKP"
+        tools:layout="@layout/fragment_pembahasan_tkp" >
+    </fragment>
+
     <activity
         android:id="@+id/nav_settings"
         android:name="com.nonamedev.siapcpns.SettingsActivity"
