@@ -132,6 +132,27 @@
         tools:layout="@layout/fragment_pembahasan_tkp" >
     </fragment>
 
+    <fragment
+        android:id="@+id/nav_pengumuman_pdf"
+        android:name="com.nonamedev.siapcpns.ui.pengumumanpdf.PengumumanPDFFragment"
+        android:label="Pengumuman"
+        tools:layout="@layout/fragment_pengumuman_pdf" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_siaranpersbkn"
+        android:name="com.nonamedev.siapcpns.ui.siaranpersBKN.SiaranPersBKNFragment"
+        android:label="Pengumuman"
+        tools:layout="@layout/fragment_pengumuman_pdf" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_siaranpers_bknpdf"
+        android:name="com.nonamedev.siapcpns.ui.siaranpersBKNpdf.SiaranpersBKNpdfFragment"
+        android:label="Siaran Pers BKN PDF"
+        tools:layout="@layout/fragment_siaranpers_bknpdf" >
+    </fragment>
+
     <activity
         android:id="@+id/nav_settings"
         android:name="com.nonamedev.siapcpns.SettingsActivity"
