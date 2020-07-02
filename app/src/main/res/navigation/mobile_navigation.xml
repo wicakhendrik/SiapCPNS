@@ -10,7 +10,6 @@
         android:name="com.nonamedev.siapcpns.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home">
-
     </fragment>
 
     <fragment
@@ -60,6 +59,83 @@
         android:name="com.nonamedev.siapcpns.ui.tiu.TIUFragment"
         android:label="Intelegensia Umum"
         tools:layout="@layout/fragment_tiu" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_tiumodulsinonim"
+        android:name="com.nonamedev.siapcpns.ui.tiumodulsinonim.tiumodulsinonimFragment"
+        android:label="Sinonim dan Antonim"
+        tools:layout="@layout/fragment_tiumodulsinonim" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_tiumodulanalogi"
+        android:name="com.nonamedev.siapcpns.ui.tiumodulanalogi.tiumodulanalogiFragment"
+        android:label="Analogi"
+        tools:layout="@layout/fragment_tiumodulanalogi" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_tiumodulcspadanankata"
+        android:name="com.nonamedev.siapcpns.ui.tiumodulcspadanankata.tiumodulcspadanankataFragment"
+        android:label="Contoh Soal Padanan Kata"
+        tools:layout="@layout/fragment_tiumodulcspadanankata" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_tiumoduloperasi"
+        android:name="com.nonamedev.siapcpns.ui.tiumoduloperasi.tiumoduloperasiFragment"
+        android:label="Operasi Bilangan"
+        tools:layout="@layout/fragment_tiumoduloperasi" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_tiumodulpecahan"
+        android:name="com.nonamedev.siapcpns.ui.tiumodulpecahan.tiumodulpecahanFragment"
+        android:label="Pecahan, Desimal, dan Persentase"
+        tools:layout="@layout/fragment_tiumodulpecahan" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_tiumoduleksponen"
+        android:name="com.nonamedev.siapcpns.ui.tiumoduleksponen.tiumoduleksponenFragment"
+        android:label="Eksponen atau Pangkat"
+        tools:layout="@layout/fragment_tiumoduleksponen" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_tiumodulakar"
+        android:name="com.nonamedev.siapcpns.ui.tiumodulakar.tiumodulakarFragment"
+        android:label="Akar"
+        tools:layout="@layout/fragment_tiumodulakar" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_tiumodulbentukakar"
+        android:name="com.nonamedev.siapcpns.ui.tiumodulbentukakar.tiumodulbentukakarFragment"
+        android:label="Bentuk Akar"
+        tools:layout="@layout/fragment_tiumodulbentukakar" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_tiumodulaljabar"
+        android:name="com.nonamedev.siapcpns.ui.tiumodulaljabar.tiumodulaljabarFragment"
+        android:label="Aljabar"
+        tools:layout="@layout/fragment_tiumodulaljabar" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_tiumodulperpangkatan"
+        android:name="com.nonamedev.siapcpns.ui.tiumodulperpangkatan.tiumodulperpangkatanFragment"
+        android:label="Perpangkatan pada bentuk aljabar"
+        tools:layout="@layout/fragment_tiumodulperpangkatan" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_tiumodulhubungandua"
+        android:name="com.nonamedev.siapcpns.ui.tiumodulhubungandua.tiumodulhubunganduaFragment"
+        android:label="Hubungan Dua Variable"
+        tools:layout="@layout/fragment_tiumodulhubungandua" >
     </fragment>
 
     <fragment
