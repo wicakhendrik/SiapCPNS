@@ -5,85 +5,88 @@ import com.google.gson.annotations.SerializedName;
 
 public class Datum {
 
-    @SerializedName("no")
+    @SerializedName("id_soal")
     @Expose
-    private String no;
-    @SerializedName("soal")
+    private String idSoal;
+    @SerializedName("pertanyaan")
     @Expose
-    private String soal;
-    @SerializedName("pilihan1")
+    private String pertanyaan;
+    @SerializedName("pilihanA")
     @Expose
-    private String pilihan1;
-    @SerializedName("pilihan2")
+    private String pilihanA;
+    @SerializedName("pilihanB")
     @Expose
-    private String pilihan2;
-    @SerializedName("pilihan3")
+    private String pilihanB;
+    @SerializedName("pilihanC")
     @Expose
-    private String pilihan3;
-    @SerializedName("pilihan4")
+    private String pilihanC;
+    @SerializedName("pilihanD")
     @Expose
-    private String pilihan4;
-    @SerializedName("pilihan5")
+    private String pilihanD;
+    @SerializedName("pilihanE")
     @Expose
-    private String pilihan5;
+    private String pilihanE;
     @SerializedName("jawabanbenar")
     @Expose
     private String jawabanbenar;
+    @SerializedName("tipe_soal")
+    @Expose
+    private String tipeSoal;
 
-    public String getNo() {
-        return no;
+    public String getIdSoal() {
+        return idSoal;
     }
 
-    public void setNo(String no) {
-        this.no = no;
+    public void setIdSoal(String idSoal) {
+        this.idSoal = idSoal;
     }
 
-    public String getSoal() {
-        return soal;
+    public String getPertanyaan() {
+        return pertanyaan;
     }
 
-    public void setSoal(String soal) {
-        this.soal = soal;
+    public void setPertanyaan(String pertanyaan) {
+        this.pertanyaan = pertanyaan;
     }
 
-    public String getPilihan1() {
-        return pilihan1;
+    public String getPilihanA() {
+        return pilihanA;
     }
 
-    public void setPilihan1(String pilihan1) {
-        this.pilihan1 = pilihan1;
+    public void setPilihanA(String pilihanA) {
+        this.pilihanA = pilihanA;
     }
 
-    public String getPilihan2() {
-        return pilihan2;
+    public String getPilihanB() {
+        return pilihanB;
     }
 
-    public void setPilihan2(String pilihan2) {
-        this.pilihan2 = pilihan2;
+    public void setPilihanB(String pilihanB) {
+        this.pilihanB = pilihanB;
     }
 
-    public String getPilihan3() {
-        return pilihan3;
+    public String getPilihanC() {
+        return pilihanC;
     }
 
-    public void setPilihan3(String pilihan3) {
-        this.pilihan3 = pilihan3;
+    public void setPilihanC(String pilihanC) {
+        this.pilihanC = pilihanC;
     }
 
-    public String getPilihan4() {
-        return pilihan4;
+    public String getPilihanD() {
+        return pilihanD;
     }
 
-    public void setPilihan4(String pilihan4) {
-        this.pilihan4 = pilihan4;
+    public void setPilihanD(String pilihanD) {
+        this.pilihanD = pilihanD;
     }
 
-    public String getPilihan5() {
-        return pilihan5;
+    public String getPilihanE() {
+        return pilihanE;
     }
 
-    public void setPilihan5(String pilihan5) {
-        this.pilihan5 = pilihan5;
+    public void setPilihanE(String pilihanE) {
+        this.pilihanE = pilihanE;
     }
 
     public String getJawabanbenar() {
@@ -92,6 +95,14 @@ public class Datum {
 
     public void setJawabanbenar(String jawabanbenar) {
         this.jawabanbenar = jawabanbenar;
+    }
+
+    public String getTipeSoal() {
+        return tipeSoal;
+    }
+
+    public void setTipeSoal(String tipeSoal) {
+        this.tipeSoal = tipeSoal;
     }
 
 }
