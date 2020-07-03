@@ -17,7 +17,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-public class SoalTIUPaketAActivity extends AppCompatActivity {
+public class SoalTWKPaketBActivity extends AppCompatActivity {
     private TextView textViewQuestion;
     private TextView textViewScore;
     private TextView textViewQuestionCount;
@@ -44,7 +44,7 @@ public class SoalTIUPaketAActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_soal_tiu_paket_a);
+        setContentView(R.layout.activity_soal_twk_paket_b);
         textViewQuestion = findViewById(R.id.text_view_question);
         textViewQuestionCount = findViewById(R.id.text_view_question_count);
         rbGroup = findViewById(R.id.radio_group);
@@ -73,7 +73,7 @@ public class SoalTIUPaketAActivity extends AppCompatActivity {
                 int j = 0;
                 for (DataSoal post : posts) {
                     int ts=Integer.parseInt(post.getTipeSoal());
-                    if (ts == 1) {
+                    if (ts == 6) {
                         pertanyaan_kuis[i] = post.getPertanyaan();
                         pilihan_jawaban[j] = post.getPilihanA();
                         pilihan_jawaban[j+1] = post.getPilihanB();
@@ -125,7 +125,7 @@ public class SoalTIUPaketAActivity extends AppCompatActivity {
 
             } else {
                 hasil = benar * 20;
-                Intent selesai = new Intent(getApplicationContext(), HasilTIUPaketAActivity.class);
+                Intent selesai = new Intent(getApplicationContext(), HasilTWKPaketBActivity.class);
                 startActivity(selesai);
             }
         }

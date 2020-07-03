@@ -6,13 +6,35 @@
 
     <application
         android:allowBackup="true"
-        android:usesCleartextTraffic="true"
         android:icon="@mipmap/ic_launcher_icon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_icon"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".SoalTIUPaketAActivity"></activity>
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".HasilTWKPaketDActivity"></activity>
+        <activity android:name=".HasilTWKPaketCActivity" />
+        <activity android:name=".HasilTWKPaketBActivity" />
+        <activity android:name=".SoalTWKPaketDActivity" />
+        <activity android:name=".SoalTWKPaketCActivity" />
+        <activity android:name=".SoalTWKPaketBActivity" />
+        <activity android:name=".TWKPaketDActivity" />
+        <activity android:name=".TWKPaketCActivity" />
+        <activity android:name=".TWKPaketBActivity" />
+        <activity android:name=".HasilTWKPaketAActivity" />
+        <activity android:name=".SoalTWKPaketAActivity" />
+        <activity android:name=".TWKPaketAActivity" />
+        <activity android:name=".HasilTIUPaketDActivity" />
+        <activity android:name=".SoalTIUPaketDActivity" />
+        <activity android:name=".TIUPaketDActivity" />
+        <activity android:name=".HasilTIUPaketCActivity" />
+        <activity android:name=".SoalTIUPaketCActivity" />
+        <activity android:name=".TIUPaketCActivity" />
+        <activity android:name=".HasilTIUPaketBActivity" />
+        <activity android:name=".SoalTIUPaketBActivity" />
+        <activity android:name=".TIUPaketBActivity" />
+        <activity android:name=".HasilTIUPaketAActivity" />
+        <activity android:name=".SoalTIUPaketAActivity" />
         <activity android:name=".TIUPaketAActivity" />
         <activity
             android:name=".AboutActivity"
