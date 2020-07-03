@@ -146,6 +146,27 @@
     </fragment>
 
     <fragment
+        android:id="@+id/nav_twkmodulbutirpancasila"
+        android:name="com.nonamedev.siapcpns.ui.twkmodulbutirpancasila.twkmodulbutirpancasilaFragment"
+        android:label="Butir-Butir Pancasila"
+        tools:layout="@layout/fragment_twkmodulbutirpancasila" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_twkmodulkonsepidiologi"
+        android:name="com.nonamedev.siapcpns.ui.twkmodulkonsepidiologi.twkmodulkonsepidiologiFragment"
+        android:label="Konsep Idiologi"
+        tools:layout="@layout/fragment_twkmodulkosepidiologi" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_twkmodulpancasilanilai"
+        android:name="com.nonamedev.siapcpns.ui.twkmodulpancasilanilai.twkmodulpancasilanilaiFragment"
+        android:label="Pancasila - Nilai, Asal-usul dan Kedudukan"
+        tools:layout="@layout/fragment_twkmodulpacasilanilai" >
+    </fragment>
+
+    <fragment
         android:id="@+id/nav_tkp"
         android:name="com.nonamedev.siapcpns.ui.tkp.TKPFragment"
         android:label="Karakteristik Pribadi"
