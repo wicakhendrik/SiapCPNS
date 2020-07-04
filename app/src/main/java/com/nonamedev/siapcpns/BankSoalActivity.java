@@ -17,7 +17,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-public class SoalTWKPaketDActivity extends AppCompatActivity {
+public class BankSoalActivity extends AppCompatActivity {
     private TextView textViewQuestion;
     private TextView textViewScore;
     private TextView textViewQuestionCount;
@@ -44,7 +44,7 @@ public class SoalTWKPaketDActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_soal_twk_paket_d);
+        setContentView(R.layout.activity_bank_soal);
         textViewQuestion = findViewById(R.id.text_view_question);
         textViewQuestionCount = findViewById(R.id.text_view_question_count);
         rbGroup = findViewById(R.id.radio_group);
@@ -73,7 +73,7 @@ public class SoalTWKPaketDActivity extends AppCompatActivity {
                 int j = 0;
                 for (DataSoal post : posts) {
                     int ts=Integer.parseInt(post.getTipeSoal());
-                    if (ts == 8) {
+                    if (ts == StartBankSoalActivity.id_tipe_soal) {
                         pertanyaan_kuis[i] = post.getPertanyaan();
                         pilihan_jawaban[j] = post.getPilihanA();
                         pilihan_jawaban[j+1] = post.getPilihanB();
@@ -124,13 +124,13 @@ public class SoalTWKPaketDActivity extends AppCompatActivity {
                 textViewQuestionCount.setText("Pertanyaan : " + (nomor+1) + "/" + pertanyaan_kuis.length);
 
             } else {
-                hasil = benar * 20;
-                Intent selesai = new Intent(getApplicationContext(), HasilTWKPaketDActivity.class);
+                hasil = benar * 10;
+                Intent selesai = new Intent(getApplicationContext(), HasilSoalActivity.class);
                 startActivity(selesai);
             }
         }
         else {
-            Toast.makeText(this,"Kamu Jawab Dulu",Toast.LENGTH_LONG).show();
+            Toast.makeText(this,"Anda harus memilih jawaban terlebih dahulu",Toast.LENGTH_LONG).show();
         }
     }
 }

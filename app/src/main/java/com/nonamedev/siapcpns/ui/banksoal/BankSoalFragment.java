@@ -15,17 +15,11 @@ import android.view.ViewGroup;
 import android.widget.ImageButton;
 
 import com.nonamedev.siapcpns.R;
-import com.nonamedev.siapcpns.TIUPaketAActivity;
-import com.nonamedev.siapcpns.TIUPaketBActivity;
-import com.nonamedev.siapcpns.TIUPaketCActivity;
-import com.nonamedev.siapcpns.TIUPaketDActivity;
-import com.nonamedev.siapcpns.TWKPaketAActivity;
-import com.nonamedev.siapcpns.TWKPaketBActivity;
-import com.nonamedev.siapcpns.TWKPaketCActivity;
-import com.nonamedev.siapcpns.TWKPaketDActivity;
+import com.nonamedev.siapcpns.StartBankSoalActivity;
 
 public class BankSoalFragment extends Fragment {
 
+    public static int id;
     private BankSoalViewModel mViewModel;
 
     public static BankSoalFragment newInstance() {
@@ -47,63 +41,64 @@ public class BankSoalFragment extends Fragment {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), TIUPaketAActivity.class);
+                id = 1;
+                Intent intent = new Intent(getActivity(), StartBankSoalActivity.class);
                 startActivity(intent);
             }
         });
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), TIUPaketBActivity.class);
-                startActivity(intent);
-            }
-        });
-        btn2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), TIUPaketBActivity.class);
+                id = 2;
+                Intent intent = new Intent(getActivity(), StartBankSoalActivity.class);
                 startActivity(intent);
             }
         });
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), TIUPaketCActivity.class);
+                id = 3;
+                Intent intent = new Intent(getActivity(), StartBankSoalActivity.class);
                 startActivity(intent);
             }
         });
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), TIUPaketDActivity.class);
+                id = 4;
+                Intent intent = new Intent(getActivity(), StartBankSoalActivity.class);
                 startActivity(intent);
             }
         });
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), TWKPaketAActivity.class);
+                id = 5;
+                Intent intent = new Intent(getActivity(), StartBankSoalActivity.class);
                 startActivity(intent);
             }
         });
         btn6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), TWKPaketBActivity.class);
+                id = 6;
+                Intent intent = new Intent(getActivity(), StartBankSoalActivity.class);
                 startActivity(intent);
             }
         });
         btn7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), TWKPaketCActivity.class);
+                id = 7;
+                Intent intent = new Intent(getActivity(), StartBankSoalActivity.class);
                 startActivity(intent);
             }
         });
         btn8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), TWKPaketDActivity.class);
+                id = 8;
+                Intent intent = new Intent(getActivity(), StartBankSoalActivity.class);
                 startActivity(intent);
             }
         });
